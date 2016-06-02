@@ -1,91 +1,26 @@
 {
-  "_args": [
-    [
-      {
-        "name": "prerender-useragent-forwarding",
-        "raw": "prerender-useragent-forwarding",
-        "rawSpec": "",
-        "scope": null,
-        "spec": "latest",
-        "type": "tag"
-      },
-      "/prerender"
-    ]
-  ],
-  "_from": "prerender-useragent-forwarding@latest",
-  "_id": "prerender-useragent-forwarding@0.0.1",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/prerender-useragent-forwarding",
-  "_nodeVersion": "5.6.0",
-  "_npmOperationalInternal": {
-    "host": "packages-13-west.internal.npmjs.com",
-    "tmp": "tmp/prerender-useragent-forwarding-0.0.1.tgz_1458043576603_0.8828566083684564"
-  },
-  "_npmUser": {
-    "email": "sk@naviworldcorp.com",
-    "name": "sakutylev"
-  },
-  "_npmVersion": "3.6.0",
-  "_phantomChildren": {},
-  "_requested": {
-    "name": "prerender-useragent-forwarding",
-    "raw": "prerender-useragent-forwarding",
-    "rawSpec": "",
-    "scope": null,
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/prerender-useragent-forwarding/-/prerender-useragent-forwarding-0.0.1.tgz",
-  "_shasum": "466cd492d5be76866515cc3ad3b6df463d9242d6",
-  "_shrinkwrap": null,
-  "_spec": "prerender-useragent-forwarding",
-  "_where": "/prerender",
-  "author": {
-    "name": "Sergey Kutylev"
-  },
-  "bugs": {
-    "url": "https://github.com/skutylev/prerender-useragent-forwarding/issues"
-  },
-  "dependencies": {
-    "express-useragent": "^0.2.4"
-  },
-  "description": "A plugin for Prerender server for forwarding http User-Agent header instead of masking it FantomJS.",
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "466cd492d5be76866515cc3ad3b6df463d9242d6",
-    "tarball": "https://registry.npmjs.org/prerender-useragent-forwarding/-/prerender-useragent-forwarding-0.0.1.tgz"
-  },
-  "gitHead": "02f28680eb357aa96a6ee94081c46bb4bfb10201",
-  "homepage": "https://github.com/Osherg/prerender-useragent-forwarding#readme",
-  "keywords": [
-    "prerender",
-    "userAgent",
-    "user-agent",
-    "forwarding",
-    "proxy"
-  ],
-  "license": "MIT",
-  "main": "index.js",
-  "maintainers": [
-    {
-      "email": "sk@naviworldcorp.com",
-      "name": "sakutylev"
-    }
-  ],
   "name": "prerender-useragent-forwarding",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
+  "version": "0.0.2",
+  "description": "Prerender server plugin for forwarding http User-Agent header instead of masking it FantomJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "server.use(require('prerender-useragent-forwarding'));"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/skutylev/prerender-useragent-forwarding.git"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [
+    "prerender",
+    "user-agent",
+    "useragent",
+    "forwarding",
+    "proxy"
+  ],
+  "author": "sakutylev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skutylev/prerender-useragent-forwarding/issues"
   },
-  "version": "0.0.1"
+  "homepage": "https://github.com/skutylev/prerender-useragent-forwarding#readme"
 }
